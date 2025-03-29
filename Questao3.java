@@ -1,4 +1,4 @@
-package cinema;
+package questao3;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
