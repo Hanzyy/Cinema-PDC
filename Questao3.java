@@ -6,7 +6,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.Random;
 
-public class Cinema {
+public class Questao3 {
     
     private static Integer FazerLanche() {
         /* Criando uma variável lanche */
@@ -18,7 +18,7 @@ public class Cinema {
             /* Delay para simular o lanche sendo preparado */
             Thread.sleep(rand.nextInt(20)+1);
         } catch (InterruptedException ex) {
-            Logger.getLogger(Cinema.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Questao3.class.getName()).log(Level.SEVERE, null, ex);
         }
         return lanche;
     }  
